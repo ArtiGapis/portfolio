@@ -28,7 +28,8 @@
                     <span class="front">Home</span>
                     <span class="back">Pradinis</span>
                 </span>
-            </a></li>
+            </a>
+        </li>
         <li>
             <a href="portfolio.php" class="three-d" style="width: 200px">
                 Portfolio
@@ -36,7 +37,8 @@
                     <span class="front">Portfolio</span>
                     <span class="back">Darbai</span>
                 </span>
-            </a></li>
+            </a>
+        </li>
         <li>
             <a href="about.php" class="three-d">
                 About
@@ -44,7 +46,8 @@
                     <span class="front">About</span>
                     <span class="back">Apie mane</span>
                 </span>
-            </a></li>
+            </a>
+        </li>
         <li>
             <a href="contact.php" class="three-d">
                 Contact
@@ -55,7 +58,16 @@
             </a>
         </li>
         <li>
-            <h1>ArtiGapis</h1>
+            <a href="cv.php" class="three-d">
+                Contact
+                <span aria-hidden="true" class="three-d-box">
+                    <span class="front">CV</span>
+                    <span class="back">CV</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <h1>AG</h1>
         </li>
     </ul>
 </div>

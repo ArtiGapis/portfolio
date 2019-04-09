@@ -12,20 +12,15 @@ include 'header.php';
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="fredericka_font">DARBO PATIRTIS</h2>
-                <p> Didelės praktikos kompiuterinių technologijų srityje įgijau dirbdamas
-                    UAB "Iremas" fil. "Letenerga". Eidamas sys. administratoriaus pareigas
-                    buvau atsakingas nuo dokumentų redagavimo ar apskaitos programų iki
-                    kompiuterių modifikavimo restauracijų ar sistemų atkurimų.
-                    Taip pat dirbau su įmonės turto inventorizacija ir legalizacija bei su
-                    tuo susijais dokumentais. Baigiau "Balti Institut of Technology" kur
-                    igijau jaunesniojo Java programuotoja kvalifikacija. Reprezentacinių
-                    interneto svetainių kūrimas ir SEO optimizavimas, naudojant WordPress
-                    arba kodo rašymą (HTML, PHP, CSS, SASS, JS, JQuery). Darbas su MySQL
-                    naudojant kodą ir MySQL Workbench.JAVA, MAVEN, TOMCAT
-                    Esu atsakingas ir iniciatyvus, taip pat noriu tobulėti. Visada stengiuosi
-                    efektyviai ir atsakingai įvykdyti, bet kokią man paskirtą užduotį.
-                    Pritaikęs visas savo asmenines savybes, tokias kaip greita orientacija,
-                    analitinis mastymas, komunikabilumas.
+                <p>
+                    Didelės praktikos kompiuterinių technologijų srityje įgijau dirbdamas UAB "Iremas" fil.
+                    "Letenerga". Eidamas sys. administratoriaus pareigas buvau atsakingas nuo dokumentų
+                    redagavimo ar apskaitos programų iki kompiuterių modifikavimo restauracijų
+                    ar sistemų atkurimų. Taip pat dirbau su įmonės turto inventorizacija ir legalizacija
+                    bei su tuo susijusiais dokumentais. Baigiau "Baltic Institute of Technology", kur įgijau
+                    jaunesniojo Java programuotojo kvalifikaciją. Reprezentacinių interneto svetainių kūrimas
+                    ir SEO optimizavimas, naudojant WordPress arba kodo rašymą (HTML, PHP, CSS, SASS, JS, JQuery).
+                    Darbas su MySQL naudojant kodą ir MySQL Workbench, JAVA, MAVEN, TOMCAT.
                 </p>
             </div>
         </div>
