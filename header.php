@@ -22,11 +22,11 @@
 <div class="header_background">
     <ul class="block-menu">
         <li>
-            <a href="index.php" class="three-d">
-                Home
+            <a href="cv.php" class="three-d">
+                Contact
                 <span aria-hidden="true" class="three-d-box">
-                    <span class="front">Home</span>
-                    <span class="back">Pradinis</span>
+                    <span class="front">CV</span>
+                    <span class="back">CV</span>
                 </span>
             </a>
         </li>
@@ -57,17 +57,9 @@
                 </span>
             </a>
         </li>
+
         <li>
-            <a href="cv.php" class="three-d">
-                Contact
-                <span aria-hidden="true" class="three-d-box">
-                    <span class="front">CV</span>
-                    <span class="back">CV</span>
-                </span>
-            </a>
-        </li>
-        <li>
-            <h1>AG</h1>
+            <h1 style="color: white">ArtiGapis</h1>
         </li>
     </ul>
 </div>

@@ -11,7 +11,7 @@ include 'header.php';
     <div class="container blue_wrap">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="fredericka_font">DARBO PATIRTIS</h2>
+                <h2 style="text-align: center">APIE MANE</h2>
                 <p>
                     Didelės praktikos kompiuterinių technologijų srityje įgijau dirbdamas UAB "Iremas" fil.
                     "Letenerga". Eidamas sys. administratoriaus pareigas buvau atsakingas nuo dokumentų

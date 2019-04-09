@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <p>ArtiGapis</p>
-                <a href="index.php">HOME</a>
+                <a href="cv.php">CV</a>
                 <a href="portfolio.php">PORTFOLIO</a>
                 <a href="about.php">ABOUT</a>
                 <a href="contact.php">CONTACT</a>

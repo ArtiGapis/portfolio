@@ -1,7 +1,6 @@
-$melyna : rgba(0, 134, 255, 0.62);
-$tamsiai_melyna :rgb(12, 35, 206);
-$labai_melyna :rgb(0, 10, 147);
-$pilka : rgb(48, 51, 54);
+$sviesi_pilka: rgba(132, 129, 136, 0.62);
+$pilka: rgb(97, 96, 94);
+$tamsiai_pilka: rgb(36, 36, 32);
 
 
 .page_body{
@@ -9,8 +8,9 @@ $pilka : rgb(48, 51, 54);
   min-height: 450px;
   padding: 20px 0 20px 0;
   .blue_wrap{
-    background-color: $melyna;
+    background-color: $sviesi_pilka;
     padding-bottom: 20px;
+    color: #e1e1e1;
   }
 }
 
@@ -28,12 +28,12 @@ index
   position: fixed;
   background-repeat: no-repeat;
   .index_wrapper_2{
-    background-color: $melyna;
+    background-color: $sviesi_pilka;
     padding: 50px;
     width: 100%;
     height: 100%;
     .index_wrapper_3{
-      border: 60px solid $melyna;
+      border: 60px solid $sviesi_pilka;
       border-radius: 120px;
       height: 100%;
       .center {
@@ -95,8 +95,8 @@ index
 
 /* menu styles */
 .header_background{
-  background-color: $tamsiai_melyna;
-  border-bottom: 5px solid $labai_melyna;
+  background-color: $pilka;
+  border-bottom: 5px solid $tamsiai_pilka;
   padding: 20px 0 0 0;
 }
 .fredericka_font{
@@ -173,7 +173,7 @@ a.three-d{
   position: absolute;
   top: 0;
   left: 0;
-  background: $labai_melyna;
+  background: $tamsiai_pilka;
   padding: 15px 10px;
   color: white;
   pointer-events: none;
@@ -184,9 +184,9 @@ a.three-d{
 Footer
  */
 .footer_body{
-  background-color: $pilka;
+  background-color: black;
   color: white;
-  border-top: 2px solid $tamsiai_melyna;
+  border-top: 2px solid $pilka;
   p{
     margin: 0;
   }
@@ -206,7 +206,7 @@ Footer
       color: rgb(0, 119, 181);
     }
     i.fab.fa-github-square:hover {
-      color: black;
+      color: red;
     }
   }
 }
@@ -227,7 +227,11 @@ Portfolio
 /*
 CV
  */
+th, h2, h6{
+  color: black;
+}
 table {
+
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -240,7 +244,7 @@ table {
 
 .button {
   border-radius: 4px;
-  background-color: $labai_melyna;
+  background-color: $tamsiai_pilka;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -249,22 +253,20 @@ table {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
 }
 
 .button:hover span {

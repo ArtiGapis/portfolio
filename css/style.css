@@ -3,8 +3,9 @@
   min-height: 450px;
   padding: 20px 0 20px 0; }
   .page_body .blue_wrap {
-    background-color: rgba(0, 134, 255, 0.62);
-    padding-bottom: 20px; }
+    background-color: rgba(132, 129, 136, 0.62);
+    padding-bottom: 20px;
+    color: #e1e1e1; }
 
 /*
 index
@@ -20,12 +21,12 @@ index
   position: fixed;
   background-repeat: no-repeat; }
   .index_wrapper_1 .index_wrapper_2 {
-    background-color: rgba(0, 134, 255, 0.62);
+    background-color: rgba(132, 129, 136, 0.62);
     padding: 50px;
     width: 100%;
     height: 100%; }
     .index_wrapper_1 .index_wrapper_2 .index_wrapper_3 {
-      border: 60px solid rgba(0, 134, 255, 0.62);
+      border: 60px solid rgba(132, 129, 136, 0.62);
       border-radius: 120px;
       height: 100%; }
       .index_wrapper_1 .index_wrapper_2 .index_wrapper_3 .center {
@@ -87,8 +88,8 @@ index
     transform: translate(1px, -2px) rotate(-1deg); } }
 /* menu styles */
 .header_background {
-  background-color: #0c23ce;
-  border-bottom: 5px solid #000a93;
+  background-color: #61605e;
+  border-bottom: 5px solid #242420;
   padding: 20px 0 0 0; }
 
 .fredericka_font {
@@ -154,7 +155,7 @@ a.three-d {
   position: absolute;
   top: 0;
   left: 0;
-  background: #000a93;
+  background: #242420;
   padding: 15px 10px;
   color: white;
   pointer-events: none;
@@ -164,9 +165,9 @@ a.three-d {
 Footer
  */
 .footer_body {
-  background-color: #303336;
+  background-color: black;
   color: white;
-  border-top: 2px solid #0c23ce; }
+  border-top: 2px solid #61605e; }
   .footer_body p {
     margin: 0; }
   .footer_body a {
@@ -181,7 +182,7 @@ Footer
     .footer_body .footer_contact i.fab.fa-linkedin:hover {
       color: #0077b5; }
     .footer_body .footer_contact i.fab.fa-github-square:hover {
-      color: black; }
+      color: red; }
 
 /*
 Portfolio
@@ -195,6 +196,9 @@ Portfolio
 /*
 CV
  */
+th, h2, h6 {
+  color: black; }
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -206,7 +210,7 @@ table {
 
 .button {
   border-radius: 4px;
-  background-color: #000a93;
+  background-color: #242420;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -215,20 +219,18 @@ table {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px; }
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s; }
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s; }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s; }
 
 .button:hover span {
   padding-right: 25px; }

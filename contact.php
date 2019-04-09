@@ -12,7 +12,7 @@ include 'header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 blue_wrap">
-                    <h2 class="fredericka_font">Kontaktai</h2>
+                    <h2 style="text-align: center">KONTAKTAI</h2>
                     <h4>Tel. Nr.:  </h4>
                     <h5>+370 (633) 84113</h5>
                     <h4>Mail: </h4>

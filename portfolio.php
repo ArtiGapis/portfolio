@@ -11,7 +11,7 @@ include 'header.php';
     <div class="container blue_wrap">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="fredericka_font">Portfolio</h2>
+                <h2 style="text-align: center">Portfolio</h2>
                 <hr>
                 <div class="works_wraper">
                     <a>Mano portfolio</a>

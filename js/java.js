@@ -24,7 +24,6 @@ function patirtis() {
         u.style.display = "none";
 
     } else {
-        x.style.display = "none";
         y.style.display = "none";
         z.style.display = "none";
         t.style.display = "none";
@@ -46,7 +45,6 @@ function igudziai() {
 
     } else {
         x.style.display = "none";
-        y.style.display = "none";
         z.style.display = "none";
         t.style.display = "none";
         u.style.display = "none";
@@ -68,7 +66,6 @@ function issilavinimas() {
     } else {
         x.style.display = "none";
         y.style.display = "none";
-        z.style.display = "none";
         t.style.display = "none";
         u.style.display = "none";
     }
@@ -90,7 +87,6 @@ function kalbos() {
         x.style.display = "none";
         y.style.display = "none";
         z.style.display = "none";
-        t.style.display = "none";
         u.style.display = "none";
     }
 }
@@ -112,6 +108,5 @@ function motyvacinis() {
         y.style.display = "none";
         z.style.display = "none";
         t.style.display = "none";
-        u.style.display = "none";
     }
 }

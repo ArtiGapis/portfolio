@@ -102,6 +102,9 @@ include 'header.php';
                     </div>
                     <div id="kalbos" style="display: none">
                         <h2 style="text-align: center">Kalbos</h2>
+                        <p>
+                            Gimtoji kalba lietuvių
+                        </p>
                         <table>
                             <tr>
                                 <th>Kalbos</th>
@@ -134,6 +137,12 @@ include 'header.php';
                                 <td>A2</td>
                             </tr>
                         </table>
+                        <p>
+                            Lygmenys: A1 ir A2: pradedantis vartotojas - B1 ir B2: pažengęs vartotojas - C1 ir C2: įgudęs vartotojas
+                        </p>
+                        <p>
+                            Bendrieji Europos kalbų metmenys
+                        </p>
                     </div>
                     <div id="motyvacinis" style="display: none">
                         <h2 style="text-align: center">Motyvacinis laiškas</h2>
@@ -145,8 +154,6 @@ include 'header.php';
                         </p>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
