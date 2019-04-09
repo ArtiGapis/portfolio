@@ -239,6 +239,44 @@ table {
   opacity: 1;
   right: 0; }
 
+.left-side-bar {
+  clear: both;
+  width: 32%;
+  text-align: center;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 100px; }
+
+.middle-side-bar {
+  width: 32%;
+  text-align: center;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+.right-side-bar {
+  width: 32%;
+  text-align: center;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+.green {
+  background-color: green; }
+
+.short {
+  height: 200px; }
+
+.red {
+  position: absolute;
+  top: 320px;
+  background-color: red;
+  width: 150px; }
+
+.blue {
+  background-color: blue; }
+
+.yellow {
+  background-color: yellow; }
+
 @media screen and (max-width: 990px) {
   .index_wrapper_3 {
     border: none !important; }

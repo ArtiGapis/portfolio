@@ -12,7 +12,7 @@ include 'header.php';
             <div class="row">
                 <div class="col-lg-3">
                     <button class="button" onclick="patirtis()"><span>Darbo patirtis</span></button>
-                    <button class="button" onclick="igudziai()"><span>Įgųdžiai</span></button>
+                    <button class="button" onclick="igudziai(); myMove()"><span>Įgųdžiai</span></button>
                     <button class="button" onclick="issilavinimas()"><span>Išsilavinimas</span></button>
                     <button class="button" onclick="kalbos()"><span>Kalbos</span></button>
                     <button class="button" onclick="motyvacinis()"><span>Motyvacinis laiškas</span></button>
@@ -56,6 +56,7 @@ include 'header.php';
                     </div>
                     <div id="igudziai" style="display: none">
                         <h2 style="text-align: center">Įgųdžiai</h2>
+
                         <h4 style="text-align: center">Skaitmeniniai gebėjimai</h4>
                         <table>
                             <tr>

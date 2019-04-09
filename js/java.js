@@ -11,102 +11,39 @@
 // };
 
 function patirtis() {
-    var x = document.getElementById("patirtis");
-    var y = document.getElementById("igudziai");
-    var z = document.getElementById("issilavinimas");
-    var t = document.getElementById("kalbos");
-    var u = document.getElementById("motyvacinis");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.display = "none";
-        z.style.display = "none";
-        t.style.display = "none";
-        u.style.display = "none";
-
-    } else {
-        y.style.display = "none";
-        z.style.display = "none";
-        t.style.display = "none";
-        u.style.display = "none";
-    }
+    $('#patirtis').show(500);
+    $('#igudziai').hide(500);
+    $('#issilavinimas').hide(500);
+    $('#kalbos').hide(500);
+    $('#motyvacinis').hide(500);
 }
 function igudziai() {
-    var x = document.getElementById("patirtis");
-    var y = document.getElementById("igudziai");
-    var z = document.getElementById("issilavinimas");
-    var t = document.getElementById("kalbos");
-    var u = document.getElementById("motyvacinis");
-    if (y.style.display === "none") {
-        x.style.display = "none";
-        y.style.display = "block";
-        z.style.display = "none";
-        t.style.display = "none";
-        u.style.display = "none";
-
-    } else {
-        x.style.display = "none";
-        z.style.display = "none";
-        t.style.display = "none";
-        u.style.display = "none";
-    }
+    $('#patirtis').hide(500);
+    $('#igudziai').show(500);
+    $('#issilavinimas').hide(500);
+    $('#kalbos').hide(500);
+    $('#motyvacinis').hide(500);
 }
 function issilavinimas() {
-    var x = document.getElementById("patirtis");
-    var y = document.getElementById("igudziai");
-    var z = document.getElementById("issilavinimas");
-    var t = document.getElementById("kalbos");
-    var u = document.getElementById("motyvacinis");
-    if (z.style.display === "none") {
-        x.style.display = "none";
-        y.style.display = "none";
-        z.style.display = "block";
-        t.style.display = "none";
-        u.style.display = "none";
-
-    } else {
-        x.style.display = "none";
-        y.style.display = "none";
-        t.style.display = "none";
-        u.style.display = "none";
-    }
+    $('#patirtis').hide(500);
+    $('#igudziai').hide(500);
+    $('#issilavinimas').show(500);
+    $('#kalbos').hide(500);
+    $('#motyvacinis').hide(500);
 }
 function kalbos() {
-    var x = document.getElementById("patirtis");
-    var y = document.getElementById("igudziai");
-    var z = document.getElementById("issilavinimas");
-    var t = document.getElementById("kalbos");
-    var u = document.getElementById("motyvacinis");
-    if (t.style.display === "none") {
-        x.style.display = "none";
-        y.style.display = "none";
-        z.style.display = "none";
-        t.style.display = "block";
-        u.style.display = "none";
-
-    } else {
-        x.style.display = "none";
-        y.style.display = "none";
-        z.style.display = "none";
-        u.style.display = "none";
-    }
+    $('#patirtis').hide(500);
+    $('#igudziai').hide(500);
+    $('#issilavinimas').hide(500);
+    $('#kalbos').show(500);
+    $('#motyvacinis').hide(500);
 }
 function motyvacinis() {
-    var x = document.getElementById("patirtis");
-    var y = document.getElementById("igudziai");
-    var z = document.getElementById("issilavinimas");
-    var t = document.getElementById("kalbos");
-    var u = document.getElementById("motyvacinis");
-    if (u.style.display === "none") {
-        x.style.display = "none";
-        y.style.display = "none";
-        z.style.display = "none";
-        t.style.display = "none";
-        u.style.display = "block";
-
-    } else {
-        x.style.display = "none";
-        y.style.display = "none";
-        z.style.display = "none";
-        t.style.display = "none";
-    }
+    $('#patirtis').hide(500);
+    $('#igudziai').hide(500);
+    $('#issilavinimas').hide(500);
+    $('#kalbos').hide(500);
+    $('#motyvacinis').show(500);
 }
+
+
