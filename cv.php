@@ -12,7 +12,7 @@ include 'header.php';
             <div class="row">
                 <div class="col-lg-3">
                     <button class="button" onclick="patirtis()"><span>Darbo patirtis</span></button>
-                    <button class="button" onclick="igudziai(); myMove()"><span>Įgųdžiai</span></button>
+                    <button class="button"  onclick="igudziai()"><span id="birds_anime">Įgūdžiai</span></button>
                     <button class="button" onclick="issilavinimas()"><span>Išsilavinimas</span></button>
                     <button class="button" onclick="kalbos()"><span>Kalbos</span></button>
                     <button class="button" onclick="motyvacinis()"><span>Motyvacinis laiškas</span></button>
@@ -55,7 +55,38 @@ include 'header.php';
                         </p>
                     </div>
                     <div id="igudziai" style="display: none">
-                        <h2 style="text-align: center">Įgųdžiai</h2>
+                        <h2 style="text-align: center">Įgūdžiai</h2>
+
+
+                        <div class="animate-wrapper">
+                            <div id="animate_1" class="container-animate">
+                                <p>Iniciativumas</p>
+                            </div>
+                            <div id="animate_2" class="container-animate">
+                                <p>Greita oriantacija</p>
+                            </div>
+                            <div id="animate_3" class="container-animate">
+                                <p>Analitinis mastymas</p>
+                            </div>
+                            <div id="animate_4" class="container-animate">
+                                <p>Problemų sprendimas</p>
+                            </div>
+                            <div id="animate_5" class="container-animate">
+                                <p>Motyvacija</p>
+                            </div>
+                            <div id="animate_6" class="container-animate">
+                                <p>Kūrybiškumas</p>
+                            </div>
+                            <div id="animate_7" class="container-animate">
+                                <p>Komunikabilumas</p>
+                            </div>
+                            <div id="animate_8" class="container-animate">
+                                <p>Atsakingumas</p>
+                            </div>
+                            <div id="animate_9" class="container-animate">
+                                <p>Laiko planavimas</p>
+                            </div>
+                        </div>
 
                         <h4 style="text-align: center">Skaitmeniniai gebėjimai</h4>
                         <table>
@@ -93,7 +124,7 @@ include 'header.php';
                             Jonava (Lithuania)
                             Automobilinių ir elektrinių krautuvų operatorius.
                         </p>
-                        <h6>2018m. Programuotojas (paryškinti)</h6>
+                        <h6>2018m. Programuotojas</h6>
                         <p>
                             UAB "Baltijos Technologijų Institutas" , Kaunas (Lithuania)
                             Jaunesniojo Java programuotojo profesinio mokymo diplomas
@@ -149,7 +180,8 @@ include 'header.php';
                         <h2 style="text-align: center">Motyvacinis laiškas</h2>
                         <p>
                             Savo ateitį įsivaizduoju IT srityje, todėl dedu daug pastangų tobulėjimo link. Esu dar ganėtinai šviežias IT srityje, tačiau visada stengiuosi sau užsibrėžti kuo aukštesnius tikslus ir jų atkakliai siekti. Būtent užsispyrimas viena iš savybių, kuri nuolat skatina mane susikaupti ir atlikti net ir sudėtingiausius uždavinius.
-                            Esu baigęs UAB "Baltijos Technologijų Institutas", kur įgijau jaunesniojo Java programuotojo kvalifikaciją. Studijų metu buvo išugdyti ne tik specialybiniai JAVA programavimo įgūdžiai, bet ir komunikavimo bei organizavimo. Atlikdamas praktines užduotis išmokau reprezentacinių interneto svetainių kūrimo ir SEO optimizavimo, naudojant WordPress arba kodo rašymą (HTML, PHP, CSS, SASS, JS, JQuery). Taip pat dirbti su MySQL naudojant kodą ir MySQLWorkbench. Sėkminga praktikos patirtis tinkamai susidorojus su visomis užduotimis padėjo išlavinti strateginį mastymą, situacijų analizavimą bei efektyvų laiko valdymą.
+                            Esu baigęs UAB "Baltijos Technologijų Institutas", kur įgijau jaunesniojo Java programuotojo kvalifikaciją. Studijų metu buvo išugdyti ne tik specialybiniai JAVA programavimo įgūdžiai, bet ir komunikavimo bei organizavimo. Atlikdamas praktines užduotis išmokau reprezentacinių interneto svetainių kūrimo ir SEO optimizavimo,
+                            naudojant WordPress arba kodo rašymą (HTML, PHP, CSS, SASS, JS, JQuery). Taip pat dirbti su MySQL naudojant kodą ir MySQLWorkbench. Sėkminga praktikos patirtis tinkamai susidorojus su visomis užduotimis padėjo išlavinti strateginį mastymą, situacijų analizavimą bei efektyvų laiko valdymą.
                             Šiuo metu ieškau darbdavio, kuris suteiktų man galimybę atskleisti ir parodyti rezultatus, dirbti naudingai bei  tobulėti. Darbe galėčiau pritaikyti studijų metu bei asmenines įgytas žinias. Domiuosi naujovėmis ir stengiuosi jas pritaikyti praktikoje. Norėčiau dirbti pilną darbo dieną, esant reikalui galėčiau dirbti ir viršvalandžius.
                             Tikiuosi, atsižvelgsite į mano kvalifikaciją, turimą patirtį bei svarbiausia - didelį norą mokytis ir tobulėti.
                         </p>

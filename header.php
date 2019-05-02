@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Orbitron:900" rel="stylesheet">
     <!-- mano css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- google robo -->
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex, nofollow">
