@@ -12,9 +12,6 @@
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv.php" beforeDir="false" afterPath="$PROJECT_DIR$/cv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/java.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/java.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +37,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5279879">
+    <splitter split-orientation="horizontal" split-proportion="0.59228444">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -51,12 +48,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/cv.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2125">
-                  <caret line="176" column="28" lean-forward="true" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#2870#2891#0#HTML" expanded="true" />
-                    <element signature="e#2921#2947#0#HTML" expanded="true" />
-                  </folding>
+                <state relative-caret-position="376">
+                  <caret line="61" column="57" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -74,20 +67,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="305" column="28" lean-forward="true" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="28" />
+                <state relative-caret-position="53">
+                  <caret line="399" column="14" selection-start-line="399" selection-start-column="14" selection-end-line="399" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/java.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+                <state relative-caret-position="119">
+                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -128,9 +121,9 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/portfolio.php" />
         <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/js/java.js" />
         <option value="$PROJECT_DIR$/cv.php" />
         <option value="$PROJECT_DIR$/css/style.scss" />
-        <option value="$PROJECT_DIR$/js/java.js" />
       </list>
     </option>
   </component>
@@ -177,18 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -326,7 +307,8 @@
       <workItem from="1555049205648" duration="972000" />
       <workItem from="1555050220601" duration="18132000" />
       <workItem from="1556616539424" duration="2722000" />
-      <workItem from="1556620579899" duration="5136000" />
+      <workItem from="1556620579899" duration="12566000" />
+      <workItem from="1557174959389" duration="4720000" />
     </task>
     <task id="LOCAL-00001" summary="create CV page">
       <created>1554799587059</created>
@@ -349,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554818283821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#igudziai animation update">
+      <created>1556784846945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556784846945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155128000" />
+    <option name="totallyTimeSpent" value="167278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -434,7 +423,8 @@
     <MESSAGE value="create CV page" />
     <MESSAGE value="mod page style" />
     <MESSAGE value="change menu js animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="change menu js animation" />
+    <MESSAGE value="#igudziai animation update" />
+    <option name="LAST_COMMIT_MESSAGE" value="#igudziai animation update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WEB-INF/as.html" />
@@ -501,28 +491,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="176" column="28" lean-forward="true" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
-          <folding>
-            <element signature="e#2870#2891#0#HTML" expanded="true" />
-            <element signature="e#2921#2947#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="61" column="57" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="305" column="28" lean-forward="true" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/java.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+        <state relative-caret-position="53">
+          <caret line="399" column="14" selection-start-line="399" selection-start-column="14" selection-end-line="399" selection-end-column="14" />
         </state>
       </provider>
     </entry>

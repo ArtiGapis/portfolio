@@ -56,9 +56,41 @@ include 'header.php';
                     </div>
                     <div id="igudziai" style="display: none">
                         <h2 style="text-align: center">Įgūdžiai</h2>
-
-
                         <div class="animate-wrapper">
+                            <div class="bird" id="bird_1">
+                                <div class="bird_eye_left" id="bird_1_eye_left"></div>
+                                <div class="bird_eye_right" id="bird_1_eye_right"></div>
+                                <div class="bird_beak" id="bird_1_beak"></div>
+                            </div>
+
+                            <div class="bird" id="bird_2">
+                                <div class="bird_eye_left" id="bird_2_eye_left"></div>
+                                <div class="bird_eye_right" id="bird_2_eye_right"></div>
+                                <div class="bird_beak" id="bird_2_beak"></div>
+
+                            </div>
+
+                            <div class="bird" id="bird_3">
+                                <div class="bird_eye_left" id="bird_3_eye_left"></div>
+                                <div class="bird_eye_right" id="bird_3_eye_right"></div>
+                                <div class="bird_beak" id="bird_3_beak"></div>
+
+                            </div>
+
+                            <div class="bird" id="bird_4">
+                                <div class="bird_eye_left" id="bird_4_eye_left"></div>
+                                <div class="bird_eye_right" id="bird_4_eye_right"></div>
+                                <div class="bird_beak" id="bird_4_beak"></div>
+
+                            </div>
+
+                            <div class="bird" id="bird_5">
+                                <div class="bird_eye_left" id="bird_5_eye_left"></div>
+                                <div class="bird_eye_right" id="bird_5_eye_right"></div>
+                                <div class="bird_beak" id="bird_5_beak"></div>
+
+                            </div>
+
                             <div id="animate_1" class="container-animate">
                                 <p>Iniciativumas</p>
                             </div>

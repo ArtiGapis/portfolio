@@ -1,53 +1,33 @@
 
 function patirtis() {
     $('#patirtis').show(500);
-    $('#igudziai').hide(500);
-    $('#issilavinimas').hide(500);
-    $('#kalbos').hide(500);
-    $('#motyvacinis').hide(500);
-
+    $('#igudziai, #issilavinimas, #kalbos, #motyvacinis'
+    ).hide(500);
 }
 function igudziai() {
-    $('#patirtis').hide(500);
     $('#igudziai').show(500);
-    $('#issilavinimas').hide(500);
-    $('#kalbos').hide(500);
-    $('#motyvacinis').hide(500);
-
-    $('#animate_1').hide(500);
-    $('#animate_2').hide(500);
-    $('#animate_3').hide(500);
-    $('#animate_4').hide(500);
-    $('#animate_5').hide(500);
-    $('#animate_6').hide(500);
-    $('#animate_7').hide(500);
-    $('#animate_8').hide(500);
-    $('#animate_9').hide(500);
-
+    $('#issilavinimas, #patirtis, #kalbos, ' +
+        '#animate_1, #animate_2, #animate_3, '+
+        '#animate_4, #animate_5, #animate_6, ' +
+        '#animate_7, #animate_8, #animate_9, ' +
+        '#motyvacinis'
+    ).hide(500);
 }
 function issilavinimas() {
-    $('#patirtis').hide(500);
-    $('#igudziai').hide(500);
     $('#issilavinimas').show(500);
-    $('#kalbos').hide(500);
-    $('#motyvacinis').hide(500);
+    $('#kalbos, #motyvacinis, #igudziai, #patirtis'
+    ).hide(500);
 }
 function kalbos() {
-    $('#patirtis').hide(500);
-    $('#igudziai').hide(500);
-    $('#issilavinimas').hide(500);
     $('#kalbos').show(500);
-    $('#motyvacinis').hide(500);
+    $('#motyvacinis, #issilavinimas, #igudziai, #patirtis'
+    ).hide(500);
 }
 function motyvacinis() {
-    $('#patirtis').hide(500);
-    $('#igudziai').hide(500);
-    $('#issilavinimas').hide(500);
-    $('#kalbos').hide(500);
     $('#motyvacinis').show(500);
+    $('#patirtis, #kalbos, #issilavinimas, #igudziai'
+    ).hide(500);
 }
-
-
 
 function makeEaseOut(timing) {
     return function(timeFraction) {

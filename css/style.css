@@ -288,6 +288,47 @@ table {
     right: calc(25% - 100px); }
   .animate-wrapper #animate_9 {
     right: calc(15% - 100px); }
+  .animate-wrapper .bird {
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    border-radius: 40%; }
+    .animate-wrapper .bird .bird_eye_left {
+      position: absolute;
+      top: 10px;
+      left: calc(20% - 10px);
+      background-color: #f9f3ff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%; }
+    .animate-wrapper .bird .bird_eye_right {
+      position: absolute;
+      top: 10px;
+      right: calc(20% - 10px);
+      background-color: #f9f3ff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%; }
+    .animate-wrapper .bird .bird_beak {
+      position: absolute;
+      bottom: 10px;
+      left: calc(50% - 10px);
+      background-color: yellow;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%; }
+  .animate-wrapper #bird_1 {
+    left: calc(15% - 100px); }
+  .animate-wrapper #bird_2 {
+    left: calc(25% - 100px); }
+  .animate-wrapper #bird_3 {
+    left: calc(50% - 100px); }
+  .animate-wrapper #bird_4 {
+    right: calc(15% - 100px); }
+  .animate-wrapper #bird_5 {
+    right: calc(25% - 100px); }
 
 @media screen and (max-width: 990px) {
   .index_wrapper_3 {
@@ -298,5 +339,24 @@ table {
 
   .fb-page span {
     margin: 20px 0 20px 0; } }
+.bird_eye_left {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  animation-name: shakeMe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+@keyframes shakeMe {
+  2%, 18% {
+    transform: translate3d(-5px, 0, 0); }
+  4%, 16% {
+    transform: translate3d(5px, 0, 0); }
+  6%, 10%, 14% {
+    transform: translate3d(-5px, 0, 0); }
+  8%, 12% {
+    transform: translate3d(5px, 0, 0); }
+  18.1% {
+    transform: translate3d(0px, 0, 0); } }
 
 /*# sourceMappingURL=style.css.map */
